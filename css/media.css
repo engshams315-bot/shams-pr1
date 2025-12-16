@@ -1,0 +1,281 @@
+/* ================= Mobile (max 600px) ================= */
+@media (max-width: 480px){
+
+    /* Header */
+    header {
+        height: 70vh;
+        background-position: top center;
+        
+    }
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #navbar img {
+        margin-right: 120px;
+        width: 60px;
+    }
+
+    #navbar ul {
+        flex-direction:row;
+        gap: 15px;
+        margin: 0 auto;
+    }
+
+    #navbar ul li a {
+        font-size: 14px;
+    }
+
+    header .content h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    header .content p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    /* ABOUT */
+    #about {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    #about .about-content {
+        display: flex;
+        text-align: center;
+    }#about .about-content p{
+        margin: auto;
+    }
+
+
+    #about .about-content img {
+        display: none;
+    }
+
+    /* ===== OFFERS ===== */
+    #offers {
+        height: auto !important;
+        padding: 1rem 1rem;
+        background: url(img/specialoffares/offer-background.jpg)  
+         center/cover no-repeat ;
+    }
+    #offers .offers-items {
+        /* flex-direction: column; */
+        gap: 25px;
+        text-align: center;
+    }
+
+    #offers .offers-items img {
+        width: 180px;
+    }
+
+    /* MENU */
+    #menu .menu-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu .menu-items .menu-item {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu .menu-items .menu-item img {
+        width: 120px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    #menu .btn {
+        margin: 20px auto 0;
+    }
+     /* Daytime Section */
+    #daytime {
+        background: url(img/daytime/daytime_bg.jpeg)center center/cover no-repeat;
+        padding: 1rem 1rem;
+        height: 130vh;
+    }
+
+    #daytime .daytime-items {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #daytime .daytime-item img {
+        width: 100px;
+        margin: auto;
+    }
+
+    #daytime .daytime-items h3 {
+        font-size: 24px;
+    }
+
+    #daytime .daytime-items p {
+        font-size: 14px;
+    }
+
+
+    /* GALLERY */
+    #gallery .img-gallery img {
+        width: 80%;
+    }
+    /* CONTACT */
+    #contact .contact-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+/* =============== TABLET (600px – 1024px) =============== */
+@media (min-width: 481px) and (max-width: 1024px) {
+    header {
+        height: 70vh;
+        background-position: top center;
+        
+    }
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #navbar img {
+        margin-right: 120px;
+        width: 60px;
+    }
+
+    #navbar ul {
+        flex-direction:row;
+        gap: 15px;
+        margin: 0 auto;
+    }
+
+    #navbar ul li a {
+        font-size: 14px;
+    }
+
+    header .content h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    header .content p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    /* ABOUT */
+    #about {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    #about .about-content {
+        display: flex;
+        text-align: center;
+    }#about .about-content p{
+        margin: auto;
+    }
+
+
+    #about .about-content img {
+        display: none;
+    }
+
+    /* ===== OFFERS ===== */
+    #offers {
+        height: auto !important;
+        padding: 3rem 1rem;
+        background: url(img/specialoffares/offer-background.jpg) center center/cover no-repeat;
+    }
+    #offers .offers-items {
+        /* flex-direction: column; */
+        gap: 25px;
+        text-align: center;
+    }
+
+    #offers .offers-items img {
+        width: 180px;
+    }
+
+    /* MENU */
+    #menu .menu-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu .menu-items .menu-item {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu .menu-items .menu-item img {
+        width: 120px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    #menu .btn {
+        margin: 20px auto 0;
+    }
+     /* Daytime Section */
+    #daytime {
+        background: url(img/daytime/daytime_bg.jpeg)center center/cover no-repeat;
+        padding: 1rem 1rem;
+        height: 130vh;
+    }
+
+    #daytime .daytime-items {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #daytime .daytime-item img {
+        width: 100px;
+        margin: auto;
+    }
+
+    #daytime .daytime-items h3 {
+        font-size: 24px;
+    }
+
+    #daytime .daytime-items p {
+        font-size: 14px;
+    }
+
+
+    /* GALLERY */
+    #gallery .img-gallery img {
+        width: 45%;
+    }
+    /* CONTACT */
+    #contact .contact-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+
+    
